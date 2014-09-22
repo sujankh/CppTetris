@@ -50,7 +50,7 @@ void Score::InitScoreBoard()
         }
         else        //for the numbers
         {
-            scoreBoard[i].SetFontType("fonts//BRADHITC.ttf");
+            scoreBoard[i].SetFontType("fonts//BRADHITC.TTF");
             scoreBoard[i].MakeBold();
             scoreBoard[i].SetFontSize(15);
             scoreBoard[i].SetColor(255, 255, 255);

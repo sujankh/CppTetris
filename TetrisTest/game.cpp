@@ -169,7 +169,7 @@ void Game::InitTextMotion(Text *lineComplete)
      {
          lineComplete[i].SetFontSize(20);
          lineComplete[i].SetColor(0, 0, 255);
-         lineComplete[i].SetFontType("fonts//BAUHS93.ttf");
+         lineComplete[i].SetFontType("fonts//BAUHS93.TTF");
          lineComplete[i].SetText(messages[i]);
          lineComplete[i].SetX(LEFT + CELLW * 2);
      }
@@ -190,7 +190,7 @@ void Game::ShowGameOver()
      Text gameOver;
      gameOver.SetFontSize(35);
      gameOver.SetColor(200, 0, 255);
-     gameOver.SetFontType("fonts//BRADHITC.ttf");
+     gameOver.SetFontType("fonts//BRADHITC.TTF");
      gameOver.MakeBold();
      gameOver.SetText("Game Over");
      gameOver.SetXY(LEFT, TOP + CELLW * 8);
